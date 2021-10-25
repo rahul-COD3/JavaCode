@@ -1,4 +1,5 @@
-/*import java.util.Scanner;*/
+package LabWork;
+
 public class Pract2 {
     public static void main(String[] args) {
         System.out.println("The equation is 1) 3.4x+50.2y=44.5 2) 2.1x+.55y=5.9");

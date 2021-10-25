@@ -9,7 +9,6 @@ public class ArithmeticOperation {
         int u = a;
         System.out.println(afterPlus + " " + beforePlus);
         System.out.println(u);
-        s
 
     }
 }

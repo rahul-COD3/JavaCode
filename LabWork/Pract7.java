@@ -1,3 +1,5 @@
+package LabWork;
+
 public class Pract7 {
     public static void main(String[] args) {
         int letter1 = 65 + (int) (Math.random() * (90 - 65));

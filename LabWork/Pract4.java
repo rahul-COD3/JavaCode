@@ -1,3 +1,5 @@
+package LabWork;
+
 import java.util.Scanner;
 
 public class Pract4 {

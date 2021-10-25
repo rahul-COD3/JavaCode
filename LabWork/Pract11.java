@@ -1,3 +1,5 @@
+package LabWork;
+
 import java.util.Scanner;
 
 public class Pract11 {
@@ -7,12 +9,12 @@ public class Pract11 {
         int rows = sc.nextInt();
         System.out.println("Enter your cols value");
         int cols = sc.nextInt();
-        int a[][] = new int [rows][cols];
+        int a[][] = new int[rows][cols];
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 a[i][j] = sc.nextInt();
-                
+
             }
         }
         System.out.println("Result:");
