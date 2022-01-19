@@ -1,4 +1,4 @@
-package GFG.Java.OutPut;
+package Java.OutPut;
 
 public class formate {
     public static void main(String[] args) {

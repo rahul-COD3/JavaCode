@@ -1,4 +1,3 @@
-package LabWork;
 
 public class Pract7 {
     public static void main(String[] args) {

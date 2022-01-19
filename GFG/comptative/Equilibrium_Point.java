@@ -1,4 +1,4 @@
-package GFG.comptative;
+// package GFG.comptative;
 /*
  * Given an array A of n positive numbers. The task is to find the first
  * Equilibium Point in the array.

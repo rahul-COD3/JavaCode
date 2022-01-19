@@ -1,7 +1,14 @@
 {
   "java.project.sourcePaths": [
     "Practice",
+    "Other",
+    "LabWork",
+    "Lab",
+    "Javafx",
     "GFG/DataStructure/Operator",
-    "Other"
+    "GFG/DataStructure/Array",
+    "GFG",
+    "ClassWork",
+    ""
   ]
 }

@@ -1,4 +1,4 @@
-package GFG.DataStructure.Basics;
+package DataStructure.Basics;
 
 import java.util.Scanner;
 

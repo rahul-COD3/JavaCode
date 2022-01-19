@@ -1,4 +1,3 @@
-package LabWork;
 
 import java.util.Scanner;
 
@@ -9,22 +8,22 @@ public class Pract6 {
         char ch = sc.next().charAt(0);
         sc.close();
         switch (ch) {
-        case 'A':
-        case 'a':
-        case 'E':
-        case 'e':
-        case 'I':
-        case 'i':
-        case 'O':
-        case 'o':
-        case 'U':
-        case 'u':
-            System.out.println("It is Vowel");
-            break;
+            case 'A':
+            case 'a':
+            case 'E':
+            case 'e':
+            case 'I':
+            case 'i':
+            case 'O':
+            case 'o':
+            case 'U':
+            case 'u':
+                System.out.println("It is Vowel");
+                break;
 
-        default:
-            System.out.println("It is consonant");
-            break;
+            default:
+                System.out.println("It is consonant");
+                break;
         }
     }
 }

@@ -1,4 +1,4 @@
-package GFG.DataStructure.Basics;
+package DataStructure.Basics;
 
 public class Solution {
 
