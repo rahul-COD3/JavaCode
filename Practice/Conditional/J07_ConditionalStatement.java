@@ -1,3 +1,5 @@
+package Conditional;
+
 public class J07_ConditionalStatement {
     public static void main(String[] args) {
         int NoOfPatels = 5;

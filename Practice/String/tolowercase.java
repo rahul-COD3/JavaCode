@@ -1,3 +1,5 @@
+package String;
+
 public class tolowercase {
     public static void main(String[] args) {
         String cars = "Hyundai,Maruti,Swift,Wagonr,ferrari,Lamborghini";

@@ -1,3 +1,5 @@
+package String;
+
 class Strings {
     public static void main(String[] args) {
 
@@ -21,7 +23,6 @@ class Strings {
 
         // boolean contains(CharSequence s)
         System.out.println(s.contains("Good"));
-
 
     }
 }

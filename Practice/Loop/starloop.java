@@ -1,3 +1,5 @@
+package Loop;
+
 public class starloop {
 
     public static void main(String[] args) {

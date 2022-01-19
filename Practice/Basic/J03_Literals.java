@@ -1,3 +1,5 @@
+package Basic;
+
 public class J03_Literals {
     public static void main(String[] args) {
         byte age = 35;
@@ -21,13 +23,13 @@ public class J03_Literals {
         double f2 = 5.6;
         System.out.println(f2);
 
-/*
-      boolean b = (5>6);
-      System.out.println(b);
-      It will print false statement
-*/
+        /*
+         * boolean b = (5>6);
+         * System.out.println(b);
+         * It will print false statement
+         */
 
-        String str="Rahul";
+        String str = "Rahul";
         System.out.println(str);
     }
 }

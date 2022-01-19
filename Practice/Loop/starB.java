@@ -1,3 +1,5 @@
+package Loop;
+
 public class starB {
     public static void main(String[] args) {
         int n = 5;

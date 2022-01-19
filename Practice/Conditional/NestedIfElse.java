@@ -1,3 +1,5 @@
+package Conditional;
+
 public class NestedIfElse {
     public static void main(String[] args) {
         int a = 38, b = 39, c = 35;
@@ -8,13 +10,13 @@ public class NestedIfElse {
             } else {
                 result = c;
             }
-        }else {
+        } else {
             if (b > c) {
                 result = b;
             } else {
                 result = c;
             }
         }
-        System.out.println("The largest no is: "+ result);
+        System.out.println("The largest no is: " + result);
     }
 }

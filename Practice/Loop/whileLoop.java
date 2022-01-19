@@ -1,3 +1,5 @@
+package Loop;
+
 import java.util.Scanner;
 
 public class whileLoop {
@@ -14,8 +16,8 @@ public class whileLoop {
             sum += lastDigit;
         }
         System.out.println("the sum of " + n + " is " + sum);
-        
-        int numberOfDigit = (int)Math.log10(n) + 1;
-        System.out.println("the number of digit is "+ numberOfDigit);
+
+        int numberOfDigit = (int) Math.log10(n) + 1;
+        System.out.println("the number of digit is " + numberOfDigit);
     }
 }

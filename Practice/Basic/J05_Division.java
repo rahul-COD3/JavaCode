@@ -1,3 +1,5 @@
+package Basic;
+
 import java.util.Scanner;
 
 public class J05_Division {
@@ -7,7 +9,7 @@ public class J05_Division {
         float a = sc.nextFloat();
         System.out.println("Enter your second number: ");
         float b = sc.nextFloat();
-        float Div = a/b;
+        float Div = a / b;
         System.out.println("Division of these two number: ");
         System.out.println(Div);
         sc.close();

@@ -1,3 +1,5 @@
+package String;
+
 public class concatInStr {
     public static void main(String[] args) {
         String name = "Rahul";

@@ -1,4 +1,7 @@
+package Basic;
+
 import java.util.Scanner;
+
 public class J02_Sum {
     public static void main(String[] args) {
         System.out.println("Enter number 1: ");
