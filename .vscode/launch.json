@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch sumOfDigits",
+      "request": "launch",
+      "mainClass": "DataStructure.Recursion.sumOfDigits",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch palindrome_or_not",
+      "request": "launch",
+      "mainClass": "DataStructure.Recursion.palindrome_or_not",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch handling_baseCase",
+      "request": "launch",
+      "mainClass": "DataStructure.Recursion.handling_baseCase",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch sumOf_firstNaturalNum",
+      "request": "launch",
+      "mainClass": "DataStructure.Recursion.sumOf_firstNaturalNum",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch print_1_to_N",
+      "request": "launch",
+      "mainClass": "DataStructure.Recursion.print_1_to_N",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch practice_2",
+      "request": "launch",
+      "mainClass": "DataStructure.Recursion.practice_2",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch recursion_practice",
+      "request": "launch",
+      "mainClass": "DataStructure.Recursion.recursion_practice",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch Move_zero_to_the_last",
+      "request": "launch",
+      "mainClass": "Move_zero_to_the_last",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
       "name": "Launch Welcome_to_java",
       "request": "launch",
       "mainClass": "Welcome_to_java",
