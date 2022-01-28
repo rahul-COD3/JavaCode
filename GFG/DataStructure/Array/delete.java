@@ -1,4 +1,3 @@
-
 public class delete {
     static int Delete(int arr[], int x, int n) {
         int i;

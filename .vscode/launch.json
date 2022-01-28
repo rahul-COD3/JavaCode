@@ -6,6 +6,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch initialization",
+      "request": "launch",
+      "mainClass": "bigIntegers.initialization",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch patternStringProblem",
+      "request": "launch",
+      "mainClass": "String.patternStringProblem",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch strBuilder1",
+      "request": "launch",
+      "mainClass": "String.strBuilder1",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringBuilder",
+      "request": "launch",
+      "mainClass": "String.StringBuilder",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch formate",
+      "request": "launch",
+      "mainClass": "Java.OutPut.formate",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch stringBuilder",
+      "request": "launch",
+      "mainClass": "String.stringBuilder",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch printString",
+      "request": "launch",
+      "mainClass": "String.printString",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "DataStructure.Recursion.Questions.Main",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestThread",
+      "request": "launch",
+      "mainClass": "DataStructure.Recursion.Questions.TestThread",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch Q2",
+      "request": "launch",
+      "mainClass": "DataStructure.Recursion.Questions.Q2",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
       "name": "Launch sumOfDigits",
       "request": "launch",
       "mainClass": "DataStructure.Recursion.sumOfDigits",
