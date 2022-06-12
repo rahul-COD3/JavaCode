@@ -1,4 +1,5 @@
-public class dublicateValue {
+
+public class duplicateValue {
     public static void main(String[] args) {
         int[] arr = { 10, 20, 20, 30, 40, 40 };
         int n = arr.length;

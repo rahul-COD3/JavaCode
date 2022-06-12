@@ -14,10 +14,10 @@ public class print_1_to_N {
         System.out.print(n + " ");
     }
 
-    // Tail recursion =>> After execution of child class pairent class is nothing
+    // Tail recursion =>> After execution of child class parent class is nothing
     // have to do
     // This takes less time less time on modern compilers because it is tail
-    // recusice
+    // recursive
     static void rec1(int n, int k) {
         if (n == 0) {
             return;

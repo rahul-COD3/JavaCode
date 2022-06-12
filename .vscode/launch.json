@@ -6,6 +6,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch intigerType",
+      "request": "launch",
+      "mainClass": "ArrayList.intigerType",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch usingLoop",
+      "request": "launch",
+      "mainClass": "ArrayList.usingLoop",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch basics",
+      "request": "launch",
+      "mainClass": "ArrayList.basics",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch Basics",
+      "request": "launch",
+      "mainClass": "DateAndTime.Basics",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch Solution1",
+      "request": "launch",
+      "mainClass": "Solution1",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch class1",
+      "request": "launch",
+      "mainClass": "Opps_Programming.classes.class1",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch main",
+      "request": "launch",
+      "mainClass": "Opps_Programming.classes.main",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch mutiParameter",
+      "request": "launch",
+      "mainClass": "lambdaFunction.mutiParameter",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch singleParameter",
+      "request": "launch",
+      "mainClass": "lambdaFunction.singleParameter",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch rahul",
+      "request": "launch",
+      "mainClass": "lambdaFunction.rahul",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
       "name": "Launch Solution",
       "request": "launch",
       "mainClass": "Solution",

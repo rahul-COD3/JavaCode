@@ -17,4 +17,4 @@ public class palindrome_or_not {
 }
 
 // Time Complexity: O(n)
-// Augilary Space: n/2 = O(n)
+// Auxillary Space: n/2 = O(n)

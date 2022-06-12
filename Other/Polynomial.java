@@ -26,24 +26,24 @@ public class Polynomial {
   }
 
   // Adds two polynomials and returns a new polynomial which has result
-  public Polynomial add(Polynomial p){
+  public Polynomial add(Polynomial p) {
 
-    for(int i=0;i<this.coefficient.length;i++){
-      for(int j=0;j<p.coefficient.length;j++){
-        if(i==j && (this.coefficient[i]!=0 || p.coefficient[j]!=0)){
-          this.coefficient[i]+=p.coefficient[j];
+    for (int i = 0; i < this.coefficient.length; i++) {
+      for (int j = 0; j < p.coefficient.length; j++) {
+        if (i == j && (this.coefficient[i] != 0 || p.coefficient[j] != 0)) {
+          this.coefficient[i] += p.coefficient[j];
         }
       }
     }
-          return this;
+    return this;
   }
 
   // Subtracts two polynomials and returns a new polynomial which has result
-  public Polynomial subtract(Polynomial p){
-      for(int i=0;i<this.coefficient.length;i++){
-      for(int j=0;j<p.coefficient.length;j++){
-        if(i==j && (this.coefficient[i]!=0 || p.coefficient[j]!=0)){
-          this.coefficient[i]-=p.coefficient[j];
+  public Polynomial subtract(Polynomial p) {
+    for (int i = 0; i < this.coefficient.length; i++) {
+      for (int j = 0; j < p.coefficient.length; j++) {
+        if (i == j && (this.coefficient[i] != 0 || p.coefficient[j] != 0)) {
+          this.coefficient[i] -= p.coefficient[j];
         }
       }
     }
