@@ -1,4 +1,4 @@
-package Conditional;
+package Practice.Conditional;
 
 public class J07_ConditionalStatement {
     public static void main(String[] args) {

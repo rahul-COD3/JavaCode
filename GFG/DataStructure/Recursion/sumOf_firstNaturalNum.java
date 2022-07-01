@@ -1,4 +1,4 @@
-package DataStructure.Recursion;
+package GFG.DataStructure.Recursion;
 
 public class sumOf_firstNaturalNum {
     public static void main(String[] args) {

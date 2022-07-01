@@ -1,4 +1,4 @@
-package DataStructure.Recursion;
+package GFG.DataStructure.Recursion;
 
 public class palindrome_or_not {
     public static void main(String[] args) {

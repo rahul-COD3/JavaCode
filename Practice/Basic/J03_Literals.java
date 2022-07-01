@@ -1,4 +1,4 @@
-package Basic;
+package Practice.Basic;
 
 public class J03_Literals {
     public static void main(String[] args) {

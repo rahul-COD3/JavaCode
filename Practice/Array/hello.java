@@ -1,4 +1,4 @@
-package Array;
+package Practice.Array;
 
 class Student {
     int roll_no;

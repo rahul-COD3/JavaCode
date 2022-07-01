@@ -1,3 +1,5 @@
+package GFG.DataStructure.Array;
+
 public class delete {
     static int Delete(int arr[], int x, int n) {
         int i;
@@ -14,4 +16,5 @@ public class delete {
         }
         return (n - 1);
     }
+
 }

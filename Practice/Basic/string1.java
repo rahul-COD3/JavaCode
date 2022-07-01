@@ -1,4 +1,4 @@
-package Basic;
+package Practice.Basic;
 
 public class string1 {
 

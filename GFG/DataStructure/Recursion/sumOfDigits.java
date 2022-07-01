@@ -1,4 +1,4 @@
-package DataStructure.Recursion;
+package GFG.DataStructure.Recursion;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Conditional;
+package Practice.Conditional;
 
 public class NestedIfElse {
     public static void main(String[] args) {

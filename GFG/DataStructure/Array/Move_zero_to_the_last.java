@@ -1,3 +1,5 @@
+package GFG.DataStructure.Array;
+
 public class Move_zero_to_the_last {
     public static void main(String[] args) {
         int[] arr = { 23, 3, 423, 0, 24, 0, 32, 23, 0 };

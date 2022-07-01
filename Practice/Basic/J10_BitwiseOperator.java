@@ -1,4 +1,4 @@
-package Basic;
+package Practice.Basic;
 
 public class J10_BitwiseOperator {
     public static void main(String[] args) {

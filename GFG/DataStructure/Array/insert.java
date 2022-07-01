@@ -1,3 +1,5 @@
+package GFG.DataStructure.Array;
+
 public class insert {
     public static void main(String[] args) {
         int cap = 6;

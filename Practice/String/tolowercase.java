@@ -1,4 +1,4 @@
-package String;
+package Practice.String;
 
 public class tolowercase {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Loop;
+package Practice.Loop;
 
 public class Star2 {
     public static void main(String[] args) {

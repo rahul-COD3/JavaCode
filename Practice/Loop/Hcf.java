@@ -1,4 +1,4 @@
-package Loop;
+package Practice.Loop;
 
 public class Hcf {
 

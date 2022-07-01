@@ -1,3 +1,5 @@
+package Other;
+
 public class Polynomial {
   int coefficient[] = new int[100];
 

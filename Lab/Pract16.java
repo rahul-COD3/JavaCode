@@ -1,5 +1,8 @@
+package Lab;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+
 public class Pract16 extends Number implements Comparable<Pract16> {
     /**
      *
@@ -17,7 +20,8 @@ public class Pract16 extends Number implements Comparable<Pract16> {
     /** Construct a rational with specified numerator and denominator */
     public Pract16(BigDecimal numerator, BigDecimal denominator) {
         BigDecimal gcd = gcd(numerator, denominator);
-        this.numerator = ((denominator.compareTo(BigDecimal.ZERO) > 0) ? BigDecimal.ONE : new BigDecimal(-1)).multiply(numerator).divide(gcd);
+        this.numerator = ((denominator.compareTo(BigDecimal.ZERO) > 0) ? BigDecimal.ONE : new BigDecimal(-1))
+                .multiply(numerator).divide(gcd);
         this.denominator = denominator.abs().divide(gcd);
     }
 
@@ -29,7 +33,7 @@ public class Pract16 extends Number implements Comparable<Pract16> {
         // if string is in decimal form
         if (decimal.contains(".")) {
             int power = decimal.substring(index + 1, decimal.length()).length();
-            d = new BigDecimal(Math.pow(10,power));
+            d = new BigDecimal(Math.pow(10, power));
             n = new BigDecimal(new StringBuilder(decimal).deleteCharAt(index).toString());
         } else {
             // if string contains '/'
@@ -38,7 +42,8 @@ public class Pract16 extends Number implements Comparable<Pract16> {
         }
 
         BigDecimal gcd = gcd(n, d);
-        this.numerator = ((d.compareTo(BigDecimal.ZERO) > 0) ? BigDecimal.ONE : new BigDecimal(-1)).multiply(n).divide(gcd);
+        this.numerator = ((d.compareTo(BigDecimal.ZERO) > 0) ? BigDecimal.ONE : new BigDecimal(-1)).multiply(n)
+                .divide(gcd);
         this.denominator = d.abs().divide(gcd);
 
     }
@@ -54,9 +59,6 @@ public class Pract16 extends Number implements Comparable<Pract16> {
             n2 = remainder;
             remainder = n1.remainder(n2);
         }
-
-
-
 
         return n2;
     }
@@ -109,13 +111,13 @@ public class Pract16 extends Number implements Comparable<Pract16> {
     public String toString() {
         if (denominator.equals(BigDecimal.ONE))
             return numerator + "";
-       else
+        else
             return numerator + "/" + denominator;
     }
 
     @Override // Override the equals method in the Object class
     public boolean equals(Object other) {
-        if ((this.subtract((Pract16)(other))).getNumerator().equals(BigDecimal.ZERO))
+        if ((this.subtract((Pract16) (other))).getNumerator().equals(BigDecimal.ZERO))
             return true;
         else
             return false;
@@ -123,12 +125,12 @@ public class Pract16 extends Number implements Comparable<Pract16> {
 
     @Override // Implement the abstract intValue method in Number
     public int intValue() {
-        return (int)doubleValue();
+        return (int) doubleValue();
     }
 
     @Override // Implement the abstract floatValue method in Number
     public float floatValue() {
-        return (float)doubleValue();
+        return (float) doubleValue();
     }
 
     @Override // Implement the doubleValue method in Number
@@ -142,7 +144,7 @@ public class Pract16 extends Number implements Comparable<Pract16> {
 
     @Override // Implement the abstract longValue method in Number
     public long longValue() {
-        return (long)doubleValue();
+        return (long) doubleValue();
     }
 
     @Override // Implement the compareTo method in Comparable

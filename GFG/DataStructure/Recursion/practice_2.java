@@ -1,4 +1,4 @@
-package DataStructure.Recursion;
+package GFG.DataStructure.Recursion;
 
 public class practice_2 {
     public static void main(String[] args) {

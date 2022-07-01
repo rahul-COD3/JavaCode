@@ -1,3 +1,5 @@
+package Lab;
+
 import java.util.Scanner;
 
 public class Prac13 {
@@ -23,19 +25,19 @@ public class Prac13 {
 		op = exp.charAt(operands[0].length());
 		input.close();
 		switch (op) {
-		case '+':
-			ans = a + b;
-			break;
-		case '-':
-			ans = a - b;
-			break;
-		case '*':
-			ans = a * b;
+			case '+':
+				ans = a + b;
+				break;
+			case '-':
+				ans = a - b;
+				break;
+			case '*':
+				ans = a * b;
 
-			break;
-		case '/':
-			ans = a / b;
-			break;
+				break;
+			case '/':
+				ans = a / b;
+				break;
 
 		}
 		System.out.println("Answer: " + ans);

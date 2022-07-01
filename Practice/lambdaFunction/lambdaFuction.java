@@ -1,4 +1,4 @@
-package lambdaFunction;
+package Practice.lambdaFunction;
 
 /**
  * lambdaFuction

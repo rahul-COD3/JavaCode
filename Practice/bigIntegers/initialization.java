@@ -1,4 +1,4 @@
-package bigIntegers;
+package Practice.bigIntegers;
 
 import java.math.BigInteger;
 

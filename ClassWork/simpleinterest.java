@@ -1,3 +1,5 @@
+package ClassWork;
+
 import java.util.Scanner;
 
 public class simpleinterest {
@@ -9,8 +11,8 @@ public class simpleinterest {
         double r = sc.nextDouble();
         System.out.println("Enter your no of year: ");
         double t = sc.nextDouble();
-        double ist = (p*r*t)/100;
-        System.out.println("Your interst is "+ist);
+        double ist = (p * r * t) / 100;
+        System.out.println("Your interst is " + ist);
         sc.close();
     }
 }

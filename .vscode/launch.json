@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch sudoku",
+      "request": "launch",
+      "mainClass": "sudoku",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch binarySearch",
+      "request": "launch",
+      "mainClass": "DataStructure.Searching.binarySearch",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
       "name": "Launch intigerType",
       "request": "launch",
       "mainClass": "ArrayList.intigerType",

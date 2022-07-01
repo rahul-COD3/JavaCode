@@ -1,4 +1,4 @@
-package DataStructure.Recursion;
+package GFG.DataStructure.Recursion;
 
 public class print_1_to_N {
     public static void main(String[] args) {

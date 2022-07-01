@@ -1,4 +1,4 @@
-package DataStructure.Recursion.Questions;
+package GFG.DataStructure.Recursion.Questions;
 
 public class TestThread {
     public static void main(String[] args) {

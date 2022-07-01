@@ -1,3 +1,5 @@
+package Other;
+
 class Test {
     static int a = 10;
     static int b;

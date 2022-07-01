@@ -1,3 +1,4 @@
+package GFG.DataStructure.Array;
 
 public class duplicateValue {
     public static void main(String[] args) {

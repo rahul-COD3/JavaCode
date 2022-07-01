@@ -1,3 +1,5 @@
+package Lab;
+
 public class Prac7 {
     public static void main(String[] args) {
         String plateNumber = "" + (char) (Math.random() * 26 + 65);

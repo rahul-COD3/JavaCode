@@ -1,4 +1,4 @@
-package DataStructure.Recursion.Questions;
+package GFG.DataStructure.Recursion.Questions;
 
 import java.util.*;
 
