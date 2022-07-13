@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch check",
+      "request": "launch",
+      "mainClass": "check",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch hello",
+      "request": "launch",
+      "mainClass": "GFG_try.hello",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch Practt11",
+      "request": "launch",
+      "mainClass": "LabWork.Practt11",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch GFG",
+      "request": "launch",
+      "mainClass": "GFG_try.GFG",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch linkedListCreate",
+      "request": "launch",
+      "mainClass": "LinkedList.linkedListCreate",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
       "name": "Launch sudoku",
       "request": "launch",
       "mainClass": "sudoku",
