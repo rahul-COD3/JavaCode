@@ -2,7 +2,7 @@ package LinkedList;
 
 import java.util.Scanner;
 
-public class deletionFirst {
+public class deletionAtEnd {
     Node head;
 
     public static class Node {
@@ -30,7 +30,6 @@ public class deletionFirst {
 
     public void printList() {
         if (head == null) {
-            System.out.println("List is empty");
             return;
         }
         Node currNode = head;
@@ -43,28 +42,36 @@ public class deletionFirst {
         }
     }
 
-    public void delHead() {
+    public void delLast() {
         if (head == null) {
             return;
         }
-        head = head.next;
+        if (head.next == null) {
+            head = null;
+            return;
+        }
+        Node curr = head;
+        while (curr.next.next != null) {
+            curr = curr.next;
+        }
+        curr.next = null;
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        deletionFirst llList = new deletionFirst();
+        deletionAtEnd list = new deletionAtEnd();
         int n = sc.nextInt();
         while (n > 0) {
             int data = sc.nextInt();
-            llList.addLast(data);
+            list.addLast(data);
             n--;
         }
         int delValue = sc.nextInt();
         while (delValue > 0) {
-            llList.delHead();
+            list.delLast();
             delValue--;
         }
-        llList.printList();
+        list.printList();
         sc.close();
     }
 }

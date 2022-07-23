@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch TestEncapsulation",
+      "request": "launch",
+      "mainClass": "Opps_Programming.Encapsulation.TestEncapsulation",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch libLinkedList",
+      "request": "launch",
+      "mainClass": "LinkedList.libLinkedList",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch Lists_Searching",
+      "request": "launch",
+      "mainClass": "LinkedList.Lists_Searching",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
       "name": "Launch check",
       "request": "launch",
       "mainClass": "check",
