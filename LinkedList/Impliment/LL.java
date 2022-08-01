@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.Impliment;
 
 public class LL {
     Node head;

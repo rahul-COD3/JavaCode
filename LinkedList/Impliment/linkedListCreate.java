@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.Impliment;
 
 public class linkedListCreate {
     public static void main(String[] args) {

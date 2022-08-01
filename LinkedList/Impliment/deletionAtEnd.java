@@ -1,9 +1,8 @@
-package LinkedList;
+package LinkedList.Impliment;
 
 import java.util.Scanner;
 
-public class delAtPos {
-
+public class deletionAtEnd {
     Node head;
 
     public static class Node {
@@ -31,7 +30,6 @@ public class delAtPos {
 
     public void printList() {
         if (head == null) {
-            System.out.println("List is empty");
             return;
         }
         Node currNode = head;
@@ -44,49 +42,36 @@ public class delAtPos {
         }
     }
 
-    public void delHead(int position) {
-        if (head == null)
-            return;
-
-        // Store head node
-        Node temp = head;
-
-        // If head needs to be removed
-        if (position == 0) {
-            head = temp.next; // Change head
+    public void delLast() {
+        if (head == null) {
             return;
         }
-
-        // Find previous node of the node to be deleted
-        for (int i = 0; temp != null && i < position - 1; i++)
-            temp = temp.next;
-
-        // If position is more than number of ndoes
-        if (temp == null || temp.next == null)
+        if (head.next == null) {
+            head = null;
             return;
-
-        // Node temp->next is the node to be deleted
-        // Store pointer to the next of node to be deleted
-        Node next = temp.next.next;
-
-        temp.next = next; // Unlink the deleted node from list
-
+        }
+        Node curr = head;
+        while (curr.next.next != null) {
+            curr = curr.next;
+        }
+        curr.next = null;
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        delAtPos llList = new delAtPos();
+        deletionAtEnd list = new deletionAtEnd();
         int n = sc.nextInt();
         while (n > 0) {
             int data = sc.nextInt();
-            llList.addLast(data);
+            list.addLast(data);
             n--;
         }
-        int delpos = sc.nextInt();
-
-        llList.delHead(delpos);
-
-        llList.printList();
+        int delValue = sc.nextInt();
+        while (delValue > 0) {
+            list.delLast();
+            delValue--;
+        }
+        list.printList();
         sc.close();
     }
 }

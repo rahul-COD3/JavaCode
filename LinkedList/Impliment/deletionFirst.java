@@ -1,8 +1,8 @@
-package LinkedList;
+package LinkedList.Impliment;
 
 import java.util.Scanner;
 
-public class deletionAtEnd {
+public class deletionFirst {
     Node head;
 
     public static class Node {
@@ -30,6 +30,7 @@ public class deletionAtEnd {
 
     public void printList() {
         if (head == null) {
+            System.out.println("List is empty");
             return;
         }
         Node currNode = head;
@@ -42,36 +43,28 @@ public class deletionAtEnd {
         }
     }
 
-    public void delLast() {
+    public void delHead() {
         if (head == null) {
             return;
         }
-        if (head.next == null) {
-            head = null;
-            return;
-        }
-        Node curr = head;
-        while (curr.next.next != null) {
-            curr = curr.next;
-        }
-        curr.next = null;
+        head = head.next;
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        deletionAtEnd list = new deletionAtEnd();
+        deletionFirst llList = new deletionFirst();
         int n = sc.nextInt();
         while (n > 0) {
             int data = sc.nextInt();
-            list.addLast(data);
+            llList.addLast(data);
             n--;
         }
         int delValue = sc.nextInt();
         while (delValue > 0) {
-            list.delLast();
+            llList.delHead();
             delValue--;
         }
-        list.printList();
+        llList.printList();
         sc.close();
     }
 }

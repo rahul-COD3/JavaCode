@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch stream",
+      "request": "launch",
+      "mainClass": "Collection.Iteration.stream",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch forEachMethod",
+      "request": "launch",
+      "mainClass": "Collection.Iteration.forEachMethod",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch forEach",
+      "request": "launch",
+      "mainClass": "Collection.Iteration.forEach",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch Josephus",
+      "request": "launch",
+      "mainClass": "LinkedList.Josephus",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch FirstLL",
+      "request": "launch",
+      "mainClass": "LinkedList.FirstLL",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "Opps_Programming.Polymorphism.Test",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch Inheritance",
+      "request": "launch",
+      "mainClass": "Opps_Programming.Inharitance.Inheritance",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
       "name": "Launch TestEncapsulation",
       "request": "launch",
       "mainClass": "Opps_Programming.Encapsulation.TestEncapsulation",
