@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch insertInAnyPos",
+      "request": "launch",
+      "mainClass": "LinkedList.Impliment.insertInAnyPos",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
       "name": "Launch stream",
       "request": "launch",
       "mainClass": "Collection.Iteration.stream",

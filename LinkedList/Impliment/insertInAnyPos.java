@@ -10,11 +10,11 @@ public class insertInAnyPos {
 
     public static class Node {
         int data;
-        Node nextNode;
+        Node next;
 
         Node(int data) {
             this.data = data;
-            this.nextNode = null;
+            this.next = null;
         }
     }
 
@@ -32,7 +32,7 @@ public class insertInAnyPos {
         }
 
         if (head != null && position == 0) {
-            node.nextNode = this.head;
+            node.next = this.head;
             this.head = node;
             return;
         }
@@ -44,7 +44,7 @@ public class insertInAnyPos {
 
         while (i < position) {
             previous = current;
-            current = current.nextNode;
+            current = current.next;
 
             if (current == null) {
                 break;
@@ -53,8 +53,26 @@ public class insertInAnyPos {
             i++;
         }
 
-        node.nextNode = current;
-        previous.nextNode = node;
+        node.next = current;
+        previous.next = node;
+    }
+
+    public Node insertPos(int pos, int data) {
+        Node temp = new Node(data);
+        if (pos == 1) {
+            temp.next = head;
+            head = temp;
+        }
+        Node curr = head;
+        for (int i = 1; i <= pos - 2 && curr != null; i++) {
+            curr = curr.next;
+        }
+        if (curr == null) {
+            return null;
+        }
+        temp.next = curr.next;
+        curr.next = temp;
+        return head;
     }
 
     public void printList() {
@@ -64,10 +82,10 @@ public class insertInAnyPos {
         Node currNode = head;
         while (currNode != null) {
             System.out.print(currNode.data);
-            if (currNode.nextNode != null) {
+            if (currNode.next != null) {
                 System.out.print("->");
             }
-            currNode = currNode.nextNode;
+            currNode = currNode.next;
         }
     }
 
@@ -78,7 +96,7 @@ public class insertInAnyPos {
         while (n > 0) {
             int pos = sc.nextInt();
             int data = sc.nextInt();
-            list.insertNth(pos, data);
+            list.insertPos(pos, data);
             n--;
         }
         list.printList();

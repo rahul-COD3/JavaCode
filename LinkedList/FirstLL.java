@@ -9,6 +9,8 @@ public class FirstLL {
         list.add(20);
         list.add(30);
         list.add(40);
+        list.add(2, 20);
+        list.addLast(30);
         System.out.println(list);
     }
 }
