@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch doubliLL",
+      "request": "launch",
+      "mainClass": "LinkedList.DoubliLL.doubliLL",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
       "name": "Launch insertInAnyPos",
       "request": "launch",
       "mainClass": "LinkedList.Impliment.insertInAnyPos",
