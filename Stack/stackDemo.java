@@ -2,12 +2,12 @@ package Stack;
 
 import java.util.Scanner;
 
-public class stack {
+public class stackDemo {
     int size;
     int arr[];
     int top;
 
-    stack(int size) {
+    stackDemo(int size) {
         this.size = size;
         this.arr = new int[size];
         this.top = -1;
@@ -61,7 +61,7 @@ public class stack {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        stack StackCustom = new stack(n);
+        stackDemo StackCustom = new stackDemo(n);
         while (n > 0) {
             int opval = sc.nextInt();
             switch (opval) {
