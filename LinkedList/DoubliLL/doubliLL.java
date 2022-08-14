@@ -1,13 +1,7 @@
 package LinkedList.DoubliLL;
 
-/**
- * doubliLL
- */
 public class doubliLL {
 
-    /**
-     * Node
-     */
     static class Node {
         int data;
         Node prev;
@@ -56,7 +50,6 @@ public class doubliLL {
     }
 
     // reverse of DLL
-
     static Node reverseDll(Node head) {
         if (head == null || head.next == null) {
             return head;

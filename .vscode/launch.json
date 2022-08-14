@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch probUsingQueue",
+      "request": "launch",
+      "mainClass": "Queue.usingLib.probUsingQueue",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch basicQueue",
+      "request": "launch",
+      "mainClass": "Queue.usingLib.basicQueue",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
       "name": "Launch usingStackClass",
       "request": "launch",
       "mainClass": "Stack.usingStackClass",

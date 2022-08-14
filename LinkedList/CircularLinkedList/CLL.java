@@ -1,8 +1,8 @@
 package LinkedList.CircularLinkedList;
 
-/**
- * CLL
- */
+/*
+* CLL
+*/
 public class CLL {
 
     Node head;
