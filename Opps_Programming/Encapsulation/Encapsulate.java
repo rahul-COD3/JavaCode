@@ -6,8 +6,8 @@ public class Encapsulate {
   // private variables declared
   // these can only be accessed by
   // public methods of class
-  private String geekName;
-  private int geekRoll;
+  private String geekName; // private variable only accessible within the same class
+  private int geekRoll; // an outside class cannot access private variables
   private int geekAge;
 
   // get method for age to access

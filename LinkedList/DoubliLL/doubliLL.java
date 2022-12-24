@@ -1,6 +1,6 @@
 package LinkedList.DoubliLL;
 
-public class doubliLL {
+class doubliLL {
 
     static class Node {
         int data;

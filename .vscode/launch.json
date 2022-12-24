@@ -6,6 +6,160 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch starNum",
+      "request": "launch",
+      "mainClass": "Practice.Loop.starNum",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch starloop",
+      "request": "launch",
+      "mainClass": "Practice.Loop.starloop",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch starD",
+      "request": "launch",
+      "mainClass": "Practice.Loop.starD",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch starC",
+      "request": "launch",
+      "mainClass": "Practice.Loop.starC",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch starB",
+      "request": "launch",
+      "mainClass": "Practice.Loop.starB",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch starA",
+      "request": "launch",
+      "mainClass": "Practice.Loop.starA",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch star6",
+      "request": "launch",
+      "mainClass": "Practice.Loop.star6",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch star3",
+      "request": "launch",
+      "mainClass": "Practice.Loop.star3",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch Star2",
+      "request": "launch",
+      "mainClass": "Practice.Loop.Star2",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch star1",
+      "request": "launch",
+      "mainClass": "Practice.Loop.star1",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch sqrStar",
+      "request": "launch",
+      "mainClass": "Practice.Loop.sqrStar",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch dLL",
+      "request": "launch",
+      "mainClass": "LinkedList.DoubliLL.dLL",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch LListClass",
+      "request": "launch",
+      "mainClass": "LinkedList.PracticeOnNode.LListClass",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch nthNodeFromLast",
+      "request": "launch",
+      "mainClass": "LinkedList.nthNodeFromLast",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch HashMapPractice",
+      "request": "launch",
+      "mainClass": "Practice.Maps.HashMapPractice",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch concatenation",
+      "request": "launch",
+      "mainClass": "Practice.String.concatenation",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringClassMain",
+      "request": "launch",
+      "mainClass": "Practice.String.StringClassMain",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch compareStr",
+      "request": "launch",
+      "mainClass": "Practice.String.compareStr",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch escape",
+      "request": "launch",
+      "mainClass": "GFG.Java.OutPut.escape",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch PlindromeNo",
+      "request": "launch",
+      "mainClass": "GFG.BasicMath.PlindromeNo",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch countDigits",
+      "request": "launch",
+      "mainClass": "GFG.BasicMath.countDigits",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
+      "name": "Launch tcs",
+      "request": "launch",
+      "mainClass": "tcs",
+      "projectName": "JavaCode_91f35633"
+    },
+    {
+      "type": "java",
       "name": "Launch Nth_node_from_end_of_linked_list",
       "request": "launch",
       "mainClass": "LinkedList.Nth_node_from_end_of_linked_list",
