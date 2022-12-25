@@ -19,6 +19,5 @@ public class AddSub {
         }
         System.out.println("your result is " + result);
         sc.close();
-
     }
 }
